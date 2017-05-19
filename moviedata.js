@@ -9,9 +9,7 @@ var url = 'mongodb://localhost:27017/moviemongo'
           //console.log(JSON.stringify(doc))
           //db.close()
           db.createCollection('movie',function(err,collection){
-             
-
-
+            
 
 fs.readFile('movies.dat', 'utf8', function(err, data) {
     
@@ -43,7 +41,5 @@ fs.readFile('movies.dat', 'utf8', function(err, data) {
 
           })
     })
-
-
   
 });
